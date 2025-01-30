@@ -1,4 +1,4 @@
-# <div align="center">APKDeepLens</div>
+# <div align="center">Snify</div>
 <div align="center">
 <a href="https://github.com/d78ui98/APKDeepLens/tree/master#features">Features</a> • 
 <a href="https://github.com/d78ui98/APKDeepLens/tree/master#installation">Installation</a> • 
@@ -6,15 +6,15 @@
 </div>
 <p>
 
-APKDeepLens is a Python based tool designed to scan Android applications (APK files) for security vulnerabilities. It specifically targets the OWASP Top 10 mobile vulnerabilities, providing an easy and efficient way for developers, penetration testers, and security researchers to assess the security posture of Android apps.
+Snify is a Python based tool designed to scan Android applications (APK files) for security vulnerabilities. It specifically targets the OWASP Top 10 mobile vulnerabilities, providing an easy and efficient way for developers, penetration testers, and security researchers to assess the security posture of Android apps.
 
-![image](https://github.com/d78ui98/APKDeepLens/assets/27950739/c9236e3d-60d5-4832-85dc-f09a449bade3)
+
 
 
 
 ## Features
 
-APKDeepLens is a Python-based tool that performs various operations on APK files. Its main features include:
+Snify is a Python-based tool that performs various operations on APK files. Its main features include:
 
 - **APK Analysis** -> Scans Android application package (APK) files for security vulnerabilities.
 - **OWASP Coverage** -> Covers OWASP Top 10 vulnerabilities to ensure a comprehensive security assessment.
@@ -29,7 +29,7 @@ APKDeepLens is a Python-based tool that performs various operations on APK files
 
 ## Installation
 
-To use APKDeepLens, make sure you have Python 3.10 (recommended) or higher installed, along with Java or OpenJDK. Once those are set up, you can install APKDeepLens by running the following command:
+To use Snify, make sure you have Python 3.10 (recommended) or higher installed, along with Java or OpenJDK. Once those are set up, you can install APKDeepLens by running the following command:
 ### For Linux
 ```
 git clone https://github.com/d78ui98/APKDeepLens.git
@@ -68,9 +68,7 @@ To generate detailed PDF and HTML reports after the scan you can pass `-report` 
 ```
 python3 APKDeepLens.py -apk file.apk -report
 ```
-## Contributing
 
-We welcome contributions to the APKDeepLens project. If you have a feature request, bug report, or proposal, please open a new issue [here](https://github.com/d78ui98/APKDeepLens/issues).
 
 For those interested in contributing code, please follow the standard GitHub process.
 We'll review your contributions as quickly as possible :)
