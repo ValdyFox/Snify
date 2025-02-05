@@ -32,21 +32,21 @@ Snify is a Python-based tool that performs various operations on APK files. Its 
 To use Snify, make sure you have Python 3.10 (recommended) or higher installed, along with Java or OpenJDK. Once those are set up, you can install APKDeepLens by running the following command:
 ### For Linux
 ```
-git clone https://github.com/d78ui98/APKDeepLens.git
-cd /APKDeepLens
+git clone https://github.com/d78ui98/Snify.git
+cd /Snify
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-python APKDeepLens.py --help
+python Snify.py --help
 ```
 ### For Windows
 ```
-git clone https://github.com/d78ui98/APKDeepLens.git
-cd \APKDeepLens
+git clone https://github.com/d78ui98/Snify.git
+cd \Snify
 python3 -m venv venv
 .\venv\Scripts\activate
 pip install -r .\requirements.txt
-python APKDeepLens.py --help
+python Snify.py --help
 ```
 
 ## Usage
@@ -55,26 +55,21 @@ To simply scan an APK, use the below command. Mention the apk file with `-apk` a
 Once the scan is complete, a detailed report will be displayed in the console.
 
 ```
-python3 APKDeepLens.py -apk file.apk
+python3 Snify.py -apk file.apk
 ```
 
 If you've already extracted the source code and want to provide its path for a faster scan you can use the below command.
 Mention the source code of the android application with `-source` parameter.
  
 ```
-python3 APKDeepLens.py -apk file.apk -source <source-code-path>
+python3 Snify.py -apk file.apk -source <source-code-path>
 ```
 To generate detailed PDF and HTML reports after the scan you can pass `-report` argument as mentioned below.
 ```
-python3 APKDeepLens.py -apk file.apk -report
+python3 Snify.py -apk file.apk -report
 ```
 
 
 For those interested in contributing code, please follow the standard GitHub process.
 We'll review your contributions as quickly as possible :)
-
-## Featured at
-
- - Blackhat MEA 2023 - https://blackhatmea.com/session/apkaleidoscope-android-security-insights-full-spectrum-0
- - Blackhat ASIA 2024 - https://www.blackhat.com/asia-24/arsenal/schedule/index.html#apkdeeplens---android-security-insights-in-full-spectrum-37182
 
