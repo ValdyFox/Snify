@@ -59,14 +59,14 @@ def parse_args():
 
     parser = argparse.ArgumentParser(
         description=(
-            "{BOLD}{GREEN}APKDeepLens:{ENDC}"
+            "{BOLD}{GREEN}Snify:{ENDC}"
             " Android security insights in full spectrum. "
         ).format(
             BOLD=util.BOLD, GREEN=util.OKCYAN, ENDC=util.ENDC
         ),
         epilog=(
             "For more information, visit our GitHub repository"
-            " - https://github.com/d78ui98/APKDeepLens"
+            " - https://github.com/d78ui98/Snify"
         ),
         formatter_class=argparse.RawTextHelpFormatter,
     )
@@ -82,8 +82,8 @@ def parse_args():
         "-v",
         "-version",
         action="version",
-        version="APKDeepLens v1.0",
-        help="Display the version of APKDeepLens.",
+        version="Snify v1.0",
+        help="Display the version of Snify.",
     )
     parser.add_argument(
         "-source_code_path",
