@@ -2,7 +2,6 @@
 <div align="center">
 <a href="https://github.com/d78ui98/APKDeepLens/tree/master#features">Features</a> • 
 <a href="https://github.com/d78ui98/APKDeepLens/tree/master#installation">Installation</a> • 
-<a href="https://github.com/d78ui98/APKDeepLens/blob/master/CHANGELOG.md">Changlog</a>
 </div>
 <p>
 
