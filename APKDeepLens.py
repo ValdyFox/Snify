@@ -10,11 +10,10 @@ from static_tools import sensitive_info_extractor, scan_android_manifest
 from report_gen import ReportGen, util
 
 """
-    Title:      APKDeepLens
+    Title:      Snify    
     Desc:       Android security insights in full spectrum.
-    Author:     Deepanshu Gajbhiye
     Version:    1.0.0
-    GitHub URL: https://github.com/d78ui98/APKDeepLens
+    GitHub URL: https://github.com/d78ui98/Snify
 """
 
 logging.basicConfig(level=logging.ERROR, format="%(message)s")
@@ -38,20 +37,19 @@ class util(util):
     @staticmethod
     def print_logo():
         """
-        Logo for APKDeepLens
+        Logo for Snify
         """
-        logo = f"""                 
-{util.OKGREEN} ████  █████  ██  ██    ( )                  (_ )                           {util.ENDC}
-{util.OKGREEN}██  ██ ██  ██ ██ ██    _| |  __     __  _ _   | |     __    ___    ___      {util.ENDC}
-{util.OKGREEN}██████ █████  ████   /'_` | /'_`\\ /'_`\\( '_`\\ | |    /'_`\\/' _ `\\/',__)     {util.ENDC}
-{util.OKGREEN}██  ██ ██     ██ ██ ( (_| |(  __/(  __/| (_) )| |__ (  __/| ( ) |\\__, \\     {util.ENDC}
-{util.OKGREEN}██  ██ ██     ██  ██`\\__,_)`\\___)`\\___)| ,__/'(____/`\\___)(_) (_)(____/     {util.ENDC}
-{util.OKGREEN}                                       | |                                  {util.ENDC}
-{util.OKGREEN}                                       (_)                                  {util.ENDC}
-{util.OKCYAN}                                              - Made By Deepanshu{util.ENDC}
-        """
-        print(logo)
+        print(r"""\
 
+                   .__   _____         
+  ______  ____  |__|_/ ____\ ___.__.
+ /  ___/ /    \ |  |\   __\ <   |  |
+ \___ \ |   |  \|  | |  |    \___  |
+/____  >|___|  /|__| |__|    / ____|
+     \/      \/              \/     
+
+
+            """)
 
 def parse_args():
     """
