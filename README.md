@@ -1,7 +1,5 @@
 # <div align="center">Snify</div>
 <div align="center">
-<a href="https://github.com/d78ui98/APKDeepLens/tree/master#features">Features</a> • 
-<a href="https://github.com/d78ui98/APKDeepLens/tree/master#installation">Installation</a> • 
 </div>
 <p>
 
