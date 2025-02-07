@@ -28,7 +28,7 @@ Snify is a Python-based tool that performs various operations on APK files. Its 
 
 ## Installation
 
-To use Snify, make sure you have Python 3.10 (recommended) or higher installed, along with Java or OpenJDK. Once those are set up, you can install APKDeepLens by running the following command:
+To use Snify, make sure you have Python 3.10 (recommended) or higher installed, along with Java or OpenJDK. Once those are set up, you can install Snify by running the following command:
 ### For Linux
 ```
 git clone https://github.com/d78ui98/Snify.git
